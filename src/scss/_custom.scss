@@ -1,0 +1,14 @@
+// Here you can add other styles
+.print-component{
+    display:none;
+    
+    margin-top : 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media print {
+    .print-component{
+        display:block;
+    }
+}
